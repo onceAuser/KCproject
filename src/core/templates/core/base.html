@@ -9,9 +9,65 @@
     <title>Document</title>
     {% end block %}
 
+    
+    <style>
+
+        .color-check{
+            
+                    background: linear-gradient(89.98deg, #480048 0.01%, #C04848 99.98%);
+                    /* border-radius: 0px 0px 10px 10px; */
+                    font-size:20px;
+                    padding:0px 100px;
+        }
+        
+        .navbar-text{
+            padding:0px 10px;
+            font-weight:500;
+        }
+        
+            </style>
+           
+        
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 </head>
 <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark color-check">
+        <div class="container-fluid">
+
+         
+          <a class="navbar-brand" href="#">
+              <img src="logo-removebg-preview1.png" alt="" height="70" width="150">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="me-auto"></div>
+            <ul class="navbar-nav ">
+              <li class="nav-item navbar-text">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item navbar-text">
+                <a class="nav-link" href="#">Become a tutor</a>
+              </li>
+              <li class="nav-item navbar-text">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item navbar-text">
+                <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+
+
+
+
+
 
     {% block content %}
 
